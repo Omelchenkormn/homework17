@@ -1,0 +1,25 @@
+@mixin textSecondary($fw, $fs, $lh, $color) {
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $lh;
+  color: $color;
+  font-family: "Montserrat", sans-serif;
+}
+
+@mixin textPrimary($fw, $fs, $lh, $color) {
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $lh;
+  color: $color;
+  font-family: "Open Sans", sans-serif;
+}
+
+@mixin widtheig($w, $h) {
+  width: $w;
+  height: $h;
+}
+@mixin fontz($fs, $fw, $fc) {
+  font-size: $fs;
+  font-weight: $fw;
+  color: $fc;
+}
